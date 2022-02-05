@@ -1,0 +1,12 @@
+{
+  "name": "canvas-lms-api-js",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.0"
+  }
+}
