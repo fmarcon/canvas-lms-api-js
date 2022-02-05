@@ -1,5 +1,5 @@
 import axios from "axios";
-import configuracao from "./configuracao.mjs";
+import configuracao from "./configuracao.js";
 
 const api = axios.create({
   baseURL: configuracao['urlBase'],

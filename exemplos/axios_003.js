@@ -3,7 +3,7 @@
   pegar o resultado no console.log
 */
 
-import api from "./axios_api.mjs";
+import api from "../services/axios_api.js";
 
 const getCourse = (codigo) => api.get(`courses/${codigo}`);
 

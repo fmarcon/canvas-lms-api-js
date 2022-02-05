@@ -1,4 +1,4 @@
-import api from "../services/fetch_api.mjs";
+import api from "../services/fetch_api.js";
 
 const getCourse = (codigo) => {
   return api.get(`/courses/${codigo}`);

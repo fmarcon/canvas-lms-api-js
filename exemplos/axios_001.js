@@ -2,7 +2,7 @@
   Promisses de forma tradicional
 */
 
-import api from '../services/axios_api.mjs'
+import api from '../services/axios_api.js'
 
 const getCourse = (codigo) => {
   return api.get(`courses/${codigo}`);

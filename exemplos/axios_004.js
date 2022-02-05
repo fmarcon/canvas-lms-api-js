@@ -12,7 +12,7 @@ user: {
       login_id: 'anunes123@gmail.com'
     }
 */
-import getUsers from "../api/enrollments.mjs";
+import getUsers from "../api/enrollments.js";
 
 const users = await getUsers(25);
 
